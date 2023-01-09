@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+html {
+  line-height: 1;
+  font-weight: 400;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Colors */
+:root {
+  --white: #F4F4F4;
+  --darkWhite: #A5A5A5;
+  --grey: #5A5A5A;
+  --darkGrey: #262626;
+  --black: #0C0C0C;
+  --background: #000000;
+  font-size: 62.5%; /* 10px */
+}
+
+.signature {
+  background: var(--grey);
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.signature:hover {
+  background: var(--darkGrey);
+}
+
+.signature a {
+  text-decoration: none;
+  color: var(--black);
+  transition: 0.3s;
+}
+
+.signature a:hover{
+  color: var(--white);
+}
